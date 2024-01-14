@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="card text-center">
+    <div class="warning mb-3">
+      <p class="m-2">Please check your numbers again</p>
+    </div>
+    <form class="form">
+      <h1>Loan Calculator</h1>
+      <div class="input-group">
+        <span class="addon">$</span>
+        <input type="number" id="amount" class="input" placeholder="Loan amount">
+      </div>
+      <div class="input-group">
+        <span class="addon">%</span>
+        <input type="number" id="interest" class="input" placeholder="Interest">
+      </div>
+      <div class="input-group">
+        <span class="addon">$</span>
+        <input type="number" id="salary" class="input" placeholder="Monthly Salary">
+      </div>
+      <input type="number" id="pepay" class="input w-100" placeholder="Years To Repay">
+      <input type="submit" id="btn" class="btn w-100">
+    </form>
+    <div class="resulte">
+      <h4>resulte</h4>
+      <div class="input-group">
+        <span class="addon">Monthly Payment</span>
+        <input type="number" id="month-pay" class="res-input" disabled>
+      </div>
+      <div class="input-group">
+        <span class="addon">Total Payment</span>
+        <input type="number" id="total-pay" class="res-input" disabled>
+      </div>
+      <div class="input-group">
+        <span class="addon">Total Interest</span>
+        <input type="number" id="total-inter" class="res-input" disabled>
+      </div>
+      <div class="input-group">
+        <span class="addon">Can you afford it?</span>
+        <input type="text" id="afford" class="res-input" disabled>
+      </div>
+    </div>
+    <div class="loading">
+      <img src="images/loading-gif.webp" alt="">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

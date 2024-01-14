@@ -1,0 +1,82 @@
+body {
+  height: calc(100svh);
+  background:
+    linear-gradient(150deg, transparent 1%, rgba(58, 67, 93, 0.881) 10%, rgb(50, 54, 68), rgb(85, 84, 104)60%, rgba(50, 54, 68, 0.762) 70%, rgb(107, 107, 107) 80%, rgb(60, 62, 75)),
+    repeating-linear-gradient(-150deg, rgba(107, 107, 107, 0.407) 3%, rgb(66, 69, 83) 5%),
+    repeating-linear-gradient(90deg, rgb(107, 107, 107) 3%, rgb(66, 69, 83) 5%)
+}
+
+.card {
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  border: solid rgb(210, 210, 210) 1px;
+  margin: 12px 0;
+  border-radius: 4px;
+}
+
+.input-group span {
+  align-self: center;
+  padding: 6px 14px;
+  margin-right: 1px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 3px;
+  border-right: solid rgb(210, 210, 210) 1px;
+}
+
+.input-group input{
+  flex-grow: 1;
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+}
+
+#pepay {
+  padding: 6px;
+  border-radius: 3px;
+  border: solid rgb(210, 210, 210) 1px;
+}
+
+#btn {
+  color: white;
+  background-color: rgb(71, 71, 71);
+  margin: 12px 0;
+}
+
+
+.resulte .input-group input{
+  background-color: rgb(235, 235, 235);
+}
+
+.loading img{
+  width: 100px;
+  margin: 30px;
+}
+
+/* javascript */
+
+.warning {
+  color: rgb(135, 0, 0);
+  background-color: rgba(255, 0, 0, 0.31);
+  border: 1px solid rgba(255, 0, 0, 0.231);
+  border-radius: 10px;
+  font-size: 17px;
+  display: none;
+}
+
+.resulte {
+  display: none;
+}
+.loading {
+  display: none;
+}
