@@ -39,6 +39,7 @@ body {
   padding: 6px;
   border-radius: 3px;
   border: none;
+  width: 90px;
 }
 
 #pepay {
@@ -79,4 +80,11 @@ body {
 }
 .loading {
   display: none;
+}
+
+@media(max-width: 576px) {
+  .card {
+    width: auto;
+    margin:100px 38px;
+  }
 }
